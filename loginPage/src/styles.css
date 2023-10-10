@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+
+.gradient-border {
+    border-width: 2px;
+    border-image: linear-gradient(to right, #ff0000, #d8363a, #dd3675, #b44593);
+    border-image-slice: 1;
+}
+
+::selection {
+    background-color: #ff31f8;
+    color: #fff
+}
+
+@tailwind utilities;
